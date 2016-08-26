@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>城慧逛-会员签到</title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/member_sign_in.css" />
+	</head>
+
+	<body ng-app='myApp' ng-controller='memberSignInController'>
+		<!--pre-Loading[[-->
+		<div class="fix-screen">
+			<div class="fs-text">
+				数据获取失败！
+			</div>
+		</div>
+		<!--pre-Loading]]-->
+		<div class="header">
+			<a class="headerBtn-back" ng-click="goBack()"><span class="icon-back"></span></a>商品详情
+			<a href=""><span class='member_rule' ng-click="memberRule()">签到规则</span></a>
+			<div class='rule_modal' ng-if="isShow">
+				<div id="" class='mpdal_text'>
+					<h4>签到规则</h4>
+					<p>1.每个会员每日可签到一次，每次签到可以获得10个经验值。<br/>2.连续签到七天将会额外获得50经验值奖励！<br/>3.对不正当手段(包括但不限于作弊、扰乱系统、实施网络攻击等)参与签到积分的用户，慧逛有权追回积分并处理相应账号。</p>
+					<div id="" class="rule_sure" ng-click="memberRule()">确定</div>
+				</div>
+			</div>
+		</div>
+		<div class='details'>
+			<div class="member_sign_in">
+				<div class="sign_in" ng-click="goSign()">{{signText}}</div>
+				<div class="experience_value">
+					<div>{{score}}</div>
+					<div>经验值</div>
+				</div>
+				<form novalidate>
+					<div class="member_face">
+						<div class="cul">
+							<div class="cli" style="width:{{nWidth}};">
+								<span class="cli-span" ng-click="putStar()"></span>
+							</div>
+							<!--<div>{{n}}</div>-->
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="detail_name">
+				<span class="sd_title member_title">今日最热门</span>
+			</div>
+			<div class="partShop shop_goods member_goods">
+				<ul class="clearfix">
+					<li>
+						<a href="">
+							<img class="sg-image" src="temp/ad_01.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img class="sg-image" src="temp/ad_01.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li class="on">
+					<a href="index.html">
+						<b class="icon-home"></b>
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="find.html">
+						<b class="icon-find"></b>
+						<span>发现</span>
+					</a>
+				</li>
+				<li>
+					<a href="me.html">
+						<b class="icon-me"></b>
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script src="js/member_sign_in.js" type="text/javascript"></script>
+	</body>
+
+</html>

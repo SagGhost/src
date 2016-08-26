@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/general_view.css" />
+	</head>
+
+	<body ng-app="myApp" ng-controller="myCtrl">
+		<!--pre-Loading[[-->
+		<div class="fix-screen">
+			<div class="fs-text">
+				数据获取失败！
+			</div>
+		</div>
+		<!--pre-Loading]]-->
+		<!--头部-标题[[-->
+		<div class="header">
+			<a class="headerBtn-back" ng-click="goBack()"><span class="icon-back"></span></a>
+			欧镇概览
+		</div>
+		<!--头部-标题]]-->
+		<!--概览-头部[[-->
+		<div class="gv-head">
+			<div class="gv-item">
+				<img src="temp/ad_00.png" />
+			</div>
+		</div>
+		<!--概览-头部]]-->
+		<!--欧镇介绍[[-->
+		<div class="oz-intro clearfix">
+			<div class="intro-h4">欧镇介绍</div>
+			<div class="intro-body" id="intro-body">
+				<p>ACQUA与欧镇 世人作梅词， 下笔便俗。 予试作一篇， 乃知前言不妄耳。 藤床纸帐朝眠起， 说不尽、无佳思。 沈香烟断玉炉寒， 伴我情怀如水。 笛声三弄， 梅心惊破， 多少春情意。 小风疏雨萧萧地， 又催下、千行泪。 吹箫人去玉楼空， 肠断与谁同倚？ 一枝折得， 人间天上， 没个人堪寄 其次，您别指望从我这儿能学到什么。世界上找不到两片完全一样的树叶，更何况人了？！我怎么教育孩子，只适用于我女儿，与您的娃没有半毛钱关系，尤其是血缘上（够屌吧）！可话又说回来了，“隔行如隔山，但隔行不隔理”，毕竟孩子是大人的“简装版”，都会饿吃、困睡，见好处就上、见麻烦就躲……所谓进步，就是不断消除无知、克服缺点、纠正错误的过程，就是不断改掉
+				</p>
+
+			</div>
+			<p class="spread">
+				<a id="btn">展开详情 <span class="icon-down"></span></a>
+			</p>
+
+		</div>
+		<!--欧镇介绍]]-->
+		<!--片区介绍[[-->
+		<div class="area-intro">
+			<div ng-controller='introMapCtrl' class="intro-h4">
+				片区介绍
+				<div class="intro-fr">
+					片区概览图
+					<img class="icon-map" id="btn-map" src="img/icon_map.png"></img>
+				</div>
+
+			</div>
+			<div class="area-body">
+				<ul>
+					<li><span class="area-icon"></span>主题零售（男装女装内衣家纺）</li>
+					<li><span class="area-icon"></span>国际奢侈/轻奢侈品牌</li>
+					<li><span class="area-icon"></span>主题餐饮</li>
+					<li><span class="area-icon"></span>休闲餐饮</li>
+					<li><span class="area-icon"></span>国际快时尚/潮流品牌</li>
+					<li><span class="area-icon"></span>生活/体验/儿童/综合业态</li>
+					<li><span class="area-icon"></span>配饰/数码/腕表</li>
+					<li><span class="area-icon"></span>户外/运动/休闲</li>
+					<li><span class="area-icon"></span>酒店</li>
+				</ul>
+			</div>
+			<div class="">
+				<!--片区介绍]]-->
+				<!--片区概览图[[-->
+				<!--片区概览图]]-->
+
+				<script src="js/main.js" type="text/javascript"></script>
+				<script src="js/angular.min.js" type="text/javascript"></script>
+				<script src="js/config.js" type="text/javascript"></script>
+				<script src="js/general_view.js" type="text/javascript"></script>
+	</body>
+
+</html>

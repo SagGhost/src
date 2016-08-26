@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>城慧逛-商品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/goods_list.css"/>
+	</head>
+	<body ng-app='myApp' ng-controller='goodListController'>
+		<!--pre-Loading[[-->
+		<!--<div class="fix-screen">
+			<div class="fs-text">
+				数据获取失败！
+			</div>
+		</div>-->
+		<!--pre-Loading]]-->
+		<div class="header">
+			<a class="headerBtn-back" ng-click="goBack()"><span class="icon-back"></span></a>商品列表
+		</div>
+		<div class='details'>
+			<div class='partShop shop_goods'>
+			    <p class='goods_lists'>商品展示</p>
+				<ul class="clearfix">
+					<li>
+						<a href="goods_detail.html">
+							<img class="sg-image" src="temp/icon_good.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+								<p>参考价：<span class="sg-val">￥32.00</span></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="goods_detail.html">
+							<img class="sg-image" src="temp/icon_good.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+								<p>参考价：<span class="sg-val">￥32.00</span></p>
+							</div>
+						</a>
+					</li>			
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li class="on">
+					<a href="index.html">
+						<b class="icon-home"></b>
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="find.html">
+						<b class="icon-find"></b>
+						<span>发现</span>
+					</a>
+				</li>
+				<li>
+					<a href="me.html">
+						<b class="icon-me"></b>
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/goods_list.js"></script>
+	</body>
+</html>

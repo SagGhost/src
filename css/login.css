@@ -1,0 +1,37 @@
+@charset "utf-8";
+.headerBtn-back .icon-close { display: block; position: absolute; left: 5px; height: 100%; color: #fff; top: 0; font: 500 18px/50px "blackadder itc";background: url(../img/icon_17.png) no-repeat center center; padding:0 8px; }
+.login-box{border-top: solid 1px #edeff0;margin-top: 15px;background-color: #fff;min-height: 50px;}
+.login-box li{border-bottom: solid 1px #edeff0;line-height: 50px;height: 50px;overflow: hidden;padding: 0 10px;font-size: 16px;}
+.login-box li .lg-label{width: 22%;display: inline;float: left;}
+.login-box li.lg-eye{position: relative;}
+.lg-eye .lg-eyeBtn{ width: 40px;height: 30px;display:block;position: absolute;right: 10px;top: 10px;background: url(../img/icon_18.png) no-repeat right center;}
+.lg-eye .noSee{background-image: url(../img/icon_19.png);}
+.lg-label i{padding: 0 0.5em;}
+.login-box li .lg-input{width: 78%;display: block;float: left;border: none;padding:10px;box-sizing: border-box;font:300 16px/30px "微软雅黑";outline: none;}
+.lg-submit{padding: 20px 10px;text-align: center;border-bottom: solid 1px #edeff0;}
+.lg-submit .lg-btn{font: 500 18px/45px "微软雅黑";overflow: auto;cursor: pointer; text-align: center;color: #fff;border: none;border-radius: 4px; background-color: #715c3b; width: 100%;}
+.lg-notice{font: 300 15px/25px "微软雅黑";padding: 20px 10px;}
+.lg-notice a{color: #548dd4;}
+.lg-notice .noRight{float: right;}
+.lg-eye .yzBtn{position: absolute;right: 10px;background-color: #bf9f60;height: 36px;top: 7px;border-radius: 3px;font:300 14px/36px "微软雅黑";color: #fff;text-align: center;display: block;padding:0 8px;cursor: pointer;}
+.lg-eye .yzDisable{background-color: #DDDDDD;color: #aaa;}
+.isAgree .icon-agree{padding:10px; margin-right:3px;background: url(../img/icon_20.png) no-repeat center center;}
+.agreeed .icon-agree{background-image: url(../img/icon_21.png);} 
+.lg-lvlogo{height: 75px; padding: 40px 0 25px 0;background: url(../temp/icon_lvc.png) no-repeat center center;}
+.lv-setting{background-color: #fff;border: solid 1px #e4e4e4;margin: -10px 10px 0 10px;border-bottom: none;}
+.lv-setting ul{}
+.lv-setting li{line-height: 45px;display:block;height: 45px;overflow: hidden;border-bottom: solid 1px #e4e4e4;padding: 0 10px;}
+.lv-setting li span{padding: 10px;background: url(../img/icon_20.png) no-repeat center center;margin-right: 6px;}
+.lv-setting li.selected span{background-image: url(../img/icon_21.png) ;}
+.other-login {  /*height: 130px; */margin-top:100px ; width: 100%;font-size: 15px; }
+.other-login .ol-h3 { text-align: center; line-height: 20px; color: #b1b1b1; background: url(../img/icon_22.png) no-repeat center center; }
+.other-login .ol-list { height: 50px; }
+.ol-list ul { width: 210px; height: 70px; padding: 0; margin: 0 auto; display: block; }
+.ol-list li { padding: 0; list-style: none; float: left; margin: 10px; /*margin-right: 20px;*/
+height: 50px; width: 50px; border-radius: 50%; background-color: #3eb135; }
+.ol-list li:nth-child(2) { background-color: #f2a217; }
+.ol-list li:nth-child(3) { background-color: #4dafea; }
+.ol-list li a { display: block; width: 50px; height: 50px; background-position: center center; background-repeat: no-repeat; }
+.ol-list li .weixin { background-image: url(../img/icon_23.png); }
+.ol-list li .weibo { background-image: url(../img/icon_24.png); }
+.ol-list li .qq { background-image: url(../img/icon_25.png); }

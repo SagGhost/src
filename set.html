@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>慧城逛-个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/me.css" />
+	</head>
+
+	<body ng-app="myApp" ng-controller="setController">
+		<!--pre-Loading[[-->
+		<!--<div class="fix-screen">
+			<div class="fs-text">
+				数据获取失败！
+			</div>
+		</div>-->
+		<!--pre-Loading]]-->
+		<div class="header">
+			<a class="headerBtn-back" ng-click="goBack()"><span class="icon-back"></span></a>设置
+		</div>
+		<div class="details">
+			<div class="detail_list sd_list me_center">
+				<ul>
+					<li>
+						<a href="#" class="me_a"><i class="sd_icon icon-userInfor"></i>我的资料<span class="floatRight"></span></a>
+					</li>
+					<li>
+						<a href="#" class="me_a"><i class="sd_icon icon-change-key"></i>修改密码<span class="floatRight"></span></a>
+					</li>
+					<li>
+						<a href="#" class="me_a"><i class="sd_icon icon-version"></i>版本信息<span class="floatRight"></span></a>
+					</li>
+					<li>
+						<a href="#" class="me_a"><i class="sd_icon icon-update"></i>检查更新<span class="floatRight"></span></a>
+					</li>
+				</ul>
+			</div>
+			<button ng-click="cancelLation()">退出当前账号</button>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="index.html">
+						<b class="icon-home"></b>
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="find.html">
+						<b class="icon-find"></b>
+						<span>发现</span>
+					</a>
+				</li>
+				<li class="on">
+					<a href="me.html">
+						<b class="icon-me"></b>
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script src="js/set.js" type="text/javascript"></script>
+	</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<style type="text/css">
+			.filename {
+				width: 300px;
+				float: left;
+				height: 28px;
+				line-height: 28px;
+				border: solid 1px #ddd;
+			}
+			
+			a {
+				width: 50px;
+				text-align: center;
+				height: 30px;
+				line-height: 30px;
+				position: relative;
+				cursor: pointer;
+				overflow: hidden;
+				display: inline-block;
+			}
+			
+			a input {
+				position: absolute;
+				left: 0;
+				top: 0;
+				opacity: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="clearfix">
+			<input class="filename" type="text" readonly="readonly" />
+			<a href="javascript:;" name="file">
+				<input type="file" name="key" />浏览
+			</a>
+		</div>
+		<div class="clearfix">
+			<input class="filename" type="text" readonly="readonly" />
+			<a href="javascript:;" name="file">
+				<input type="file" name="key" />浏览
+			</a>
+		</div>
+	</body>
+
+</html>

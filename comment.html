@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>商品点评</title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<body ng-app="myApp" ng-controller="myCtrl">
+		<!--pre-Loading[[-->
+		<div class="fix-screen">
+			<div class="fs-text">
+				数据获取失败！
+			</div>
+		</div>
+		<!--pre-Loading]]-->
+		<div class="header">
+			<a class="headerBtn-back" ng-click="goBack()"><span class="icon-back"></span></a>店铺点评
+		</div>
+		<div class="details">
+			<div class="detail_image">
+				<img src="{{shop.MainPic}}" />
+			</div>
+			<div class="comt_name">点评{{shop.Name}}</div>
+			<form novalidate>
+				<div class="comt_stars">
+					<div class="cul">
+						<div class="cli" style="width:{{nWidth}};">
+							<span class="cli-span" ng-click="putStar()"></span>
+						</div>
+					</div>
+				</div>
+				<div class="comt_sendbox">
+					<textarea name="comt_content" rows="" id="comt_content" cols="" placeholder="对这家店印象如何？快写点感受分享给小伙伴吧！"></textarea>
+				</div>
+				<div class="comt_sendImg">
+					<ul>
+						<li class="comt_sli" ng-click="addImg()"></li>
+						<li class="comt_hdli"><input type="file" name="" id="comt_img" value="" /></li>
+					</ul>
+
+				</div>
+				<div class="comt_senBtn">
+					<button ng-click="comtSubmit()">发表点评</button>
+				</div>
+			</form>
+		</div>
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/getQueryString.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script src="js/comment.js" type="text/javascript"></script>
+	</body>
+
+</html>

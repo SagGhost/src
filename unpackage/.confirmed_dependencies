@@ -1,0 +1,631 @@
+{
+	"index.html": {
+		"resources": [
+			"js/myself.js",
+			"css/main.css",
+			"js/customers.json",
+			"css/site.css",
+			"welcome.html",
+			"js/angular.min.js",
+			"list.html",
+			"js/main.js",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"js/index.js",
+			"login.html",
+			"css/index.css",
+			"img/icon_26.png",
+			"img/icon_28.png",
+			"img/icon_27.png",
+			"temp/ad_01.png",
+			"img/icon_29.png",
+			"img/icon_find.png",
+			"img/icon_homeed.png",
+			"img/icon_me.png",
+			"find.html",
+			"me.html",
+			"temp/M9wifi@3x.png",
+			"temp/icon_qian.png",
+			"temp/icon_cp.png",
+			"temp/icon_ouz.png",
+			"temp/icon_nav.png",
+			"temp/icon_map.png",
+			"temp/icon_wifi.png",
+			"temp/ac_ad0.png",
+			"temp/ac_ad2.png",
+			"temp/ac_ad1.png",
+			"css/coupon_list.css",
+			"img/icon_10.png",
+			"coupon_detail.html",
+			"js/config.js",
+			"coupon_list.html",
+			"temp/M9wifi@3x.png",
+			"css/swiper-3.3.1.min.css",
+			"js/swiper-3.3.1.min.js",
+			"member_sign_in.html",
+			"general_view.html"
+		],
+		"refer": [
+			"list.html",
+			"find.html",
+			"me.html",
+			"coupon_detail.html",
+			"coupon_list.html",
+			"member_sign_in.html",
+			"general_view.html"
+		]
+	},
+	"list.html": {
+		"resources": [
+			"css/list.css",
+			"css/site.css",
+			"js/angular.min.js",
+			"index.html",
+			"detail.html",
+			"css/main.css",
+			"js/list.js",
+			"img/loading.gif",
+			"img/loading_02.gif",
+			"img/icon_02.png",
+			"js/main.js",
+			"img/icon_10.png",
+			"img/loading_03.gif"
+		],
+		"refer": [
+			"detail.html"
+		]
+	},
+	"detail.html": {
+		"resources": [
+			"js/getQueryString.js",
+			"js/angular.min.js",
+			"css/main.css",
+			"css/site.css",
+			"list.html",
+			"img/icon_01.png",
+			"/welcome.html",
+			"js/detail.js",
+			"img/loading.gif",
+			"img/loading_02.gif",
+			"img/icon_02.png",
+			"shop_detail.html",
+			"img/bg_lq1.png",
+			"/img/bg_lq2.png",
+			"img/bg_lq2.png",
+			"js/main.js",
+			"img/loading_03.gif"
+		],
+		"refer": [
+			"list.html",
+			"shop_detail.html"
+		]
+	},
+	"shop_detail.html": {
+		"resources": [
+			"js/shop_detail.js",
+			"css/main.css",
+			"img/icon_02.png",
+			"css/site.css",
+			"js/angular.min.js",
+			"img/loading_02.gif",
+			"js/getQueryString.js",
+			"detail.html",
+			"img/bg_ph.png",
+			"img/icon_03.png",
+			"img/icon_04.png",
+			"img/icon_07.png",
+			"img/icon_06.png",
+			"img/icon_05.png",
+			"img/icon_08.png",
+			"js/main.js",
+			"img/loading_03.gif",
+			"coupon_detail.html",
+			"img/icon_11.png",
+			"temp/icon_photo.png",
+			"img/icon_12.png",
+			"img/icon_13.png",
+			"img/icon_10.png",
+			"temp/icon_food.png",
+			"comment.html",
+			"login.html",
+			"shop_detail.html",
+			"js/config.js",
+			"temp/icon_good.png",
+			"goods_list.html",
+			"goods_detail.html",
+			"comment_list.html",
+			"comment_detail.html",
+			"active_detail.html"
+		],
+		"refer": [
+			"detail.html",
+			"coupon_detail.html",
+			"comment.html",
+			"login.html",
+			"goods_list.html",
+			"goods_detail.html",
+			"comment_list.html",
+			"comment_detail.html",
+			"active_detail.html"
+		]
+	},
+	"coupon_list.html": {
+		"resources": [
+			"js/main.js",
+			"css/main.css",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"js/angular.min.js",
+			"js/coupon_list.js",
+			"css/coupon_list.css",
+			"img/icon_10.png",
+			"coupon_detail.html",
+			"login.html",
+			"js/doCookie.js",
+			"js/angular-cookies.min.js",
+			"js/config.js",
+			"index.html"
+		],
+		"refer": [
+			"coupon_detail.html",
+			"login.html",
+			"index.html"
+		]
+	},
+	"coupon_detail.html": {
+		"resources": [
+			"img/bg_lq1.png",
+			"img/icon_01.png",
+			"js/getQueryString.js",
+			"js/main.js",
+			"js/coupon_detail.js",
+			"css/main.css",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"js/angular.min.js",
+			"img/bg_lq2.png",
+			"coupon_list.html",
+			"shop_detail.html",
+			"js/xback.js",
+			"login.html",
+			"index.html",
+			"js/config.js"
+		],
+		"refer": [
+			"shop_detail.html",
+			"coupon_list.html",
+			"login.html",
+			"index.html"
+		]
+	},
+	"comment.html": {
+		"resources": [
+			"js/comment.js",
+			"js/main.js",
+			"css/main.css",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"js/angular.min.js",
+			"js/getQueryString.js",
+			"shop_detail.html",
+			"coupon_detail.html",
+			"img/icon_12.png",
+			"img/icon_13.png",
+			"img/icon_15.png",
+			"img/icon_16.png",
+			"img/icon_14.png",
+			"js/config.js",
+			"comment.html",
+			"comment_list.html",
+			"comment_detail.html"
+		],
+		"refer": [
+			"shop_detail.html",
+			"coupon_detail.html",
+			"comment.html",
+			"comment_list.html",
+			"comment_detail.html"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"js/main.js",
+			"css/main.css",
+			"css/login.css",
+			"css/site.css",
+			"img/icon_17.png",
+			"js/angular.min.js",
+			"img/loading_03.gif",
+			"js/login.js",
+			"regist.html",
+			"img/icon_18.png",
+			"img/icon_19.png",
+			"coupon_list.html",
+			"js/acounts.js",
+			"js/doCookie.js",
+			"js/angular-cookies.min.js",
+			"js/storage.js",
+			"js/jquery-2.1.0.js",
+			"forgetPassward.html",
+			"coupon_detail.html",
+			"noPassward.html",
+			"noPassword.html",
+			"index.html",
+			"img/icon_22.png",
+			"img/icon_23.png",
+			"img/icon_25.png",
+			"img/icon_24.png",
+			"js/config.js"
+		],
+		"refer": [
+			"coupon_list.html",
+			"regist.html",
+			"forgetPassward.html",
+			"coupon_detail.html",
+			"index.html",
+			"noPassword.html"
+		]
+	},
+	"regist.html": {
+		"resources": [
+			"img/icon_02.png",
+			"js/regist.js",
+			"js/main.js",
+			"css/main.css",
+			"css/login.css",
+			"img/loading_03.gif",
+			"css/site.css",
+			"img/icon_18.png",
+			"js/angular.min.js",
+			"login.html",
+			"img/icon_17.png",
+			"img/icon_20.png",
+			"img/icon_21.png",
+			"huiGlogin.html",
+			"noPassword.html",
+			"js/config.js",
+			"forgetPassward.html"
+		],
+		"refer": [
+			"login.html",
+			"huiGlogin.html",
+			"forgetPassward.html"
+		]
+	},
+	"forgetPassward.html": {
+		"resources": [
+			"js/main.js",
+			"js/findword.js",
+			"css/main.css",
+			"css/login.css",
+			"img/loading_03.gif",
+			"css/site.css",
+			"img/icon_17.png",
+			"js/angular.min.js",
+			"img/icon_18.png",
+			"login.html",
+			"js/config.js",
+			"regist.html"
+		],
+		"refer": [
+			"regist.html"
+		]
+	},
+	"noPassward.html": {
+		"resources": [
+			"js/main.js",
+			"js/findword.js",
+			"css/main.css",
+			"css/login.css",
+			"img/loading_03.gif",
+			"css/site.css",
+			"img/icon_17.png",
+			"js/angular.min.js"
+		],
+		"refer": []
+	},
+	"noPassword.html": {
+		"resources": [
+			"js/noPassword.js",
+			"js/main.js",
+			"css/main.css",
+			"css/login.css",
+			"login.html",
+			"img/loading_03.gif",
+			"css/site.css",
+			"img/icon_17.png",
+			"js/angular.min.js",
+			"huiGlogin.html",
+			"regist.html",
+			"img/icon_22.png",
+			"img/icon_25.png",
+			"img/icon_23.png",
+			"img/icon_24.png"
+		],
+		"refer": [
+			"huiGlogin.html"
+		]
+	},
+	"huiGlogin.html": {
+		"resources": [
+			"js/main.js",
+			"css/main.css",
+			"css/login.css",
+			"img/loading_03.gif",
+			"css/site.css",
+			"img/icon_17.png",
+			"js/noPassword.js",
+			"js/angular.min.js",
+			"temp/icon_lvc.png",
+			"img/icon_18.png",
+			"noPassword.html",
+			"regist.html",
+			"img/icon_21.png",
+			"img/icon_20.png",
+			"js/huiGlogin.js",
+			"img/icon_19.png",
+			"js/config.js"
+		],
+		"refer": [
+			"regist.html"
+		]
+	},
+	"find.html": {
+		"resources": [
+			"index.html",
+			"img/icon_finded.png",
+			"img/icon_home.png",
+			"me.html",
+			"js/find.js",
+			"img/icon_02.png",
+			"css/index.css"
+		],
+		"refer": [
+			"index.html",
+			"me.html"
+		]
+	},
+	"me.html": {
+		"resources": [
+			"index.html",
+			"find.html",
+			"img/icon_meed.png",
+			"js/me.js",
+			"img/icon_29.png",
+			"js/main.js",
+			"css/index.css",
+			"img/icon_home.png",
+			"img/icon_find.png",
+			"css/main.css",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"js/angular.min.js",
+			"img/icon_26.png",
+			"css/me.css",
+			"js/config.js",
+			"login.html",
+			"img/icon_set.png",
+			"img/user.png",
+			"img/icon_11.png",
+			"img/me_user_rule.png",
+			"img/icon_04.png",
+			"img/icon_03.png",
+			"img/icon_05.png",
+			"img/icon_meList.png",
+			"img/icon_me_list.png",
+			"img/icon_me_coupon.png",
+			"img/icon_me_infor.png",
+			"img/icon-me-recommend.png",
+			"img/icon_me_collect.png",
+			"img/icon-me-feedback.png",
+			"img/icon-me-comment.png",
+			"img/icon_me_interesting.png",
+			"set.html"
+		],
+		"refer": [
+			"index.html",
+			"find.html",
+			"login.html",
+			"set.html"
+		]
+	},
+	"goods_list.html": {
+		"resources": [
+			"css/goods_list.css",
+			"index.html",
+			"goods_detail.html",
+			"find.html",
+			"img/icon_29.png",
+			"img/icon_find.png",
+			"img/icon_homeed.png",
+			"img/icon_me.png",
+			"shop_detail.html",
+			"js/goods_list.js"
+		],
+		"refer": [
+			"index.html",
+			"goods_detail.html",
+			"find.html",
+			"shop_detail.html"
+		]
+	},
+	"goods_detail.html": {
+		"resources": [
+			"js/goods_detail.js",
+			"css/goods_detail.css",
+			"img/icon_29.png",
+			"img/icon_04.png",
+			"js/main.js",
+			"img/icon_06.png",
+			"css/main.css",
+			"temp/ad_01.png",
+			"img/icon_02.png",
+			"js/swiper-3.3.1.min.js",
+			"js/angular.min.js",
+			"img/icon_find.png",
+			"img/icon_03.png",
+			"css/site.css",
+			"img/icon_homeed.png",
+			"img/icon_05.png",
+			"img/icon_me.png",
+			"css/swiper-3.3.1.min.css",
+			"js/config.js",
+			"temp/icon_good.png",
+			"index.html",
+			"goods_list.html",
+			"me.html"
+		],
+		"refer": [
+			"index.html",
+			"goods_list.html",
+			"me.html"
+		]
+	},
+	"comment_list.html": {
+		"resources": [
+			"js/comment_list.js",
+			"js/main.js",
+			"css/main.css",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"temp/icon_photo.png",
+			"js/config.js",
+			"js/angular.min.js",
+			"js/getQueryString.js",
+			"comment.html",
+			"shop_detail.html",
+			"img/icon_13.png",
+			"img/icon_11.png",
+			"img/icon_12.png"
+		],
+		"refer": [
+			"comment.html",
+			"shop_detail.html"
+		]
+	},
+	"comment_detail.html": {
+		"resources": [
+			"js/comment_detail.js",
+			"js/main.js",
+			"css/main.css",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"js/config.js",
+			"js/angular.min.js",
+			"js/getQueryString.js",
+			"shop_detail.html",
+			"temp/icon_photo.png",
+			"comment.html"
+		],
+		"refer": [
+			"shop_detail.html",
+			"comment.html"
+		]
+	},
+	"member_sign_in.html": {
+		"resources": [
+			"img/icon_face.png",
+			"js/member_sign_in.js",
+			"img/icon_02.png",
+			"css/member_sign_in.css",
+			"img/icon_smile.png",
+			"index.html",
+			"me.html",
+			"img/icon_29.png",
+			"js/main.js",
+			"css/main.css",
+			"temp/ad_01.png",
+			"js/angular.min.js",
+			"img/icon_find.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"img/icon_homeed.png",
+			"img/icon_me.png",
+			"js/config.js",
+			"find.html",
+			"login.html"
+		],
+		"refer": [
+			"index.html",
+			"me.html",
+			"find.html",
+			"login.html"
+		]
+	},
+	"set.html": {
+		"resources": [
+			"img/icon_update.png",
+			"img/icon_setUser.png",
+			"js/main.js",
+			"img/icon_02.png",
+			"js/set.js",
+			"img/icon_key.png",
+			"img/icon_version.png",
+			"js/config.js",
+			"js/angular.min.js",
+			"me.html"
+		],
+		"refer": [
+			"me.html"
+		]
+	},
+	"active_detail.html": {
+		"resources": [
+			"img/icon_over.png",
+			"js/active_detail.js",
+			"js/main.js",
+			"css/main.css",
+			"img/icon_02.png",
+			"img/loading_03.gif",
+			"css/site.css",
+			"js/swiper-3.3.1.min.js",
+			"js/config.js",
+			"js/angular.min.js",
+			"css/swiper-3.3.1.min.css",
+			"js/getQueryString.js",
+			"temp/icon_active.png",
+			"img/icon_01.png",
+			"shop_detail.html"
+		],
+		"refer": [
+			"shop_detail.html"
+		]
+	},
+	"general_view.html": {
+		"resources": [
+			"img/icon_map.png",
+			"img/area_09.png",
+			"img/area_02.png",
+			"js/general_view.js",
+			"img/icon_02.png",
+			"img/area_05.png",
+			"img/area_04.png",
+			"img/area_08.png",
+			"temp/ad_00.png",
+			"img/area_03.png",
+			"img/icon_down.png",
+			"img/area_01.png",
+			"img/area_06.png",
+			"css/general_view.css",
+			"img/area_07.png",
+			"img/intro_map.png",
+			"img/close.png",
+			"index.html",
+			"js/main.js",
+			"css/main.css",
+			"js/angular.min.js",
+			"img/loading_03.gif",
+			"css/site.css",
+			"js/config.js"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}

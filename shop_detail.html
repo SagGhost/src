@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>店铺详情</title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<body ng-app="myApp" ng-controller="myCtrl">
+		<!--pre-Loading[[-->
+		<div class="fix-screen">
+			<div class="fs-text">
+				数据获取失败！
+			</div>
+		</div>
+		<!--pre-Loading]]-->
+		<div class="header">
+			<a class="headerBtn-back" ng-click="goBack()"><span class="icon-back"></span></a>
+			<a class="headerBtn-scang" ng-click="isCollection()"><span class="icon-scang"></span></a>
+			{{shop.Name}}
+		</div>
+		<div class="details">
+			<div class="detail_image">
+				<img src="{{shop.MainPic}}" />
+			</div>
+			<div class="detail_name">
+				<ul class="sd_btns">
+					<li>
+						<a href="#">排队取号</a>
+					</li>
+					<li>
+						<a href="#">闪付买单</a>
+					</li>
+				</ul>
+				<span class="sd_title">门店信息</span>
+			</div>
+			<div class="detail_list sd_list">
+				<ul>
+					<li><i class="sd_icon icon-pos"></i>所属商场：<span class="floatRight">长虹科技大厦</span></li>
+					<li><i class="sd_icon icon-adds"></i>地址：
+						<a class="floatRight">{{shop.Address.substring(0,16)}}</a>
+					</li>
+					<li><i class="sd_icon icon-call"></i>电话：
+						<a class="floatRight" href="tel:{{shop.Tel}}">{{shop.Tel}}</a>
+					</li>
+				</ul>
+			</div>
+			<!--参与门店[[-->
+			<div class="partShop sd_pshop">
+				<h3><a class="sd_new">闪付买单享受菜品额外9折优惠!</a>优惠活动</h3>
+				<ul>
+					<li class="other_dialog"></li>
+					<li ng-repeat="x in ActivityList">
+						<a href="active_detail.html?id={{x.Id}}">
+							<div class="plImage">
+								<img src="{{x.Pic}}" width="100" height="80" />
+							</div>
+							<div class="plText">
+								<div class="plTitle">{{x.Title}}</div>
+								<div class="plLocation">{{x.BeginAt.substring(0,10)}}~{{x.EndAt.substring(0,10)}}</div>
+								<div class="plLocation">{{x.Address}}</div>
+							</div>
+						</a>
+					</li>
+					<li ng-repeat="l in CouponsList">
+						<a href="coupon_detail.html?id={{l.Id}}">
+							<div class="plImage">
+								<img src="{{l.Pic}}" width="100" height="80" />
+							</div>
+							<div class="plText">
+								<div class="plTitle">{{l.Name}}</div>
+								<div class="plLocation"><b>￥{{l.Price}}</b> <span class="lineTh">原价：{{l.OldPrice}}</span></div>
+								<div class="plLocation"><span class="iconPre"></span>{{l.ShortName}}</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--参与门店]]-->
+			<!--商品展示[[-->
+			<div class="partShop shop_goods">
+				<h3>商品展示</h3>
+				<ul class="clearfix">
+					<li>
+						<a href="goods_list.html">
+							<img class="sg-image" src="temp/icon_good.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+								<p>参考价：<span class="sg-val">￥32.00</span></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="goods_detail.html">
+							<img class="sg-image" src="temp/icon_good.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+								<p>参考价：<span class="sg-val">￥32.00</span></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="goods_detail.html">
+							<img class="sg-image" src="temp/icon_good.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+								<p>参考价：<span class="sg-val">￥32.00</span></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="goods_detail.html">
+							<img class="sg-image" src="temp/icon_good.png" />
+							<div class="sg-cont">
+								<h5>三国演义烤鸡翅</h5>
+								<p>参考价：<span class="sg-val">￥32.00</span></p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="parts-more">
+					<a href="goods_list.html">全部商品（23）</a>
+				</div>
+			</div>
+			<!--商品展示]]-->
+			<!--网友评价[[-->
+			<div class="partShop sd_comot">
+				<h3><a class="sd_new" href="comment.html?sId={{sId}}"><span class="comt_btn">我要评价</span></a>网友评价</h3>
+				<ul>
+					<li class="pingj_dialog"></li>
+					<li ng-repeat="x in Commenting.pagelist">
+						<a href="comment_detail.html?RemoteId={{sId}}">
+							<div class="comt_photo">
+								<img src="temp/icon_photo.png" />
+							</div>
+							<div class="comt_text">
+								<h3 class="comt_acount">{{x.Account.Name}}<span class="icon_acount">V3</span></h3>
+								<div class="comt_score">
+									<span class="score_bgs">
+									<i class="score_value" style="width:{{scoreToStar(x.Mark.Score)}};"></i>
+								</span>
+								</div>
+								<div class="comt_content">{{x.Review.Content}}</div>
+								<dl class="comt_imgUrl clearfix">
+									<dd ng-repeat="y in x.Review.AttachmentsUrl"><img src="{{isPic(y)}}" width="60" height="60" /></dd>
+								</dl>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="parts-more">
+					<a href="comment_list.html?RemoteId={{sId}}">全部评价（{{length}}）</a>
+				</div>
+			</div>
+			<!--网友评价]]-->
+		</div>
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/getQueryString.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script src="js/shop_detail.js" type="text/javascript"></script>
+	</body>
+
+</html>

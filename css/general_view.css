@@ -1,0 +1,29 @@
+@charset "utf-8";
+.gv-head { height: auto; margin-top: 50px; }
+.gv-item img { max-width: 100%; height: auto; }
+.intro-head { background-image: url(../img/bg_intro.png); color: #bf9f60; float: top }
+.oz-intro{border-bottom: solid 1px #f2f3f4;}
+.oz-intro .area-intro { margin-top: 00px; }
+.intro-h4 { font: 300 16px/40px "微软雅黑"; padding: 0 10px;height: 40px; border-bottom: solid 1px #e0e6ea;position: relative; }
+.intro-h4 .intro-fr{float: right; font-size: 14px;}
+.intro-fr .icon-map {float: right;margin-top: 10px; margin-left: 3px;}
+.intro-body { font: 200 14px/25px "微软雅黑"; padding: 10px; height: 160px; background-color: #FFF; overflow-y: hidden; }
+.intro-body a:hover { text-decoration: underline; color: #D55555; }
+.spread {text-align: right;background-color: #fff;padding: 10px 0; }
+.spread a{color: #d45454;}
+.intro-map {  position: absolute; right: 50px;}
+#close { background: url(../img/close.png) no-repeat; width: 30px; height: 30px; cursor: pointer; position: absolute; right: 15px; top: 15px; text-indent: -999em; }
+#login { position: fixed;}
+.loginCon { position: relative; width: 350px; height: 250px; background: url(../img/intro_map.png) transparent center center no-repeat; background-size: 100%;}
+.area-body { font: 500 16px/30px "微软细圆"; background-color: #FFF; }
+.area-body li { font: 500 16px/50px "微软雅黑";color: #3c4f5e; height: 50px; border-bottom: solid 1px #f0f2f2; }
+.area { height: 40px; border-bottom: solid 1px #e0e6ea; padding: 10px 15px 0px; background-color: #FFF; }
+.area-icon { background: #80c9f1; padding: 15px 20px;display: block;float: left; margin:10px 10px 0 10px; }
+.area-body li:nth-child(2) .area-icon{ background-color:#ee9390; }
+.area-body li:nth-child(3) .area-icon{ background-color:#fee280; }
+.area-body li:nth-child(4) .area-icon{ background-color:#fffdb8; }
+.area-body li:nth-child(5) .area-icon{ background-color:#dbefe4; }
+.area-body li:nth-child(6) .area-icon{ background-color:#c8aaa2; }
+.area-body li:nth-child(7) .area-icon{ background-color:#938ab7; }
+.area-body li:nth-child(8) .area-icon{ background-color:#7ec99e; }
+.area-body li:nth-child(9) .area-icon{ background-color:#f8ced0; }

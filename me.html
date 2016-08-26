@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>慧城逛-个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/me.css" />
+	</head>
+
+	<body ng-app="myApp" ng-controller="myCtrl">
+		<!--pre-Loading[[-->
+		<div class="fix-screen">
+			<div class="fs-text">
+				数据获取失败！
+			</div>
+		</div>
+		<!--pre-Loading]]-->
+		<div class='me_title'>
+			<div class="me_set">
+				<a href="set.html"><span class="icon_set"></span></a>
+			</div>
+			<div class="me_user">
+				<div>
+					<img src="img/user.png" width="80px" height="80px" />
+				</div>
+				<div class="user_information">
+					<div>13881945561</div>
+					<div><span class="icon_experience"></span><span class="me_number">经验值：360</span></div>
+				</div>
+				<div class="user_rule">
+					<div class="div">
+						<span>+</span><span>会员签到</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="detail_list sd_list me_center">
+			<ul>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-member"></i>我的会员<span class="floatRight"></span></a>
+				</li>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-me-coupon"></i>我的优惠券<span class="floatRight">12张未用券</span></a>
+				</li>
+				<li class="me_distance"></li>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-me-infor"></i>个人消息<span class="floatRight"></span></a>
+				</li>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-me-collect"></i>我的收藏<span class="floatRight"></span></a>
+				</li>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-me-comment"></i>我的点评<span class="floatRight"></span></a>
+				</li>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-me-interseting"></i>我的喜好<span class="floatRight"></span></a>
+				</li>
+				<li class="me_distance"></li>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-me-recommend"></i>推荐给小伙伴<span class="floatRight"></span></a>
+				</li>
+				<li>
+					<a href="#" class="me_a"><i class="sd_icon icon-me-feedback"></i>意见反馈<span class="floatRight"></span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="index.html">
+						<b class="icon-home"></b>
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="find.html">
+						<b class="icon-find"></b>
+						<span>发现</span>
+					</a>
+				</li>
+				<li class="on">
+					<a href="me.html">
+						<b class="icon-me"></b>
+						<span>我的</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script src="js/angular.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script src="js/me.js" type="text/javascript"></script>
+	</body>
+
+</html>

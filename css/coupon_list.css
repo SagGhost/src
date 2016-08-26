@@ -1,0 +1,10 @@
+.lists{}
+.lists li{padding:8px 10px;border-bottom: solid 1px #ddd;}
+.lists .ls-image{float: left; padding-right: 6px;height: 80px; width: 100px;}
+.lists a{text-decoration: none;}
+.lists .ls-h3{line-height: 30px;font-size: 16px;color: #3c4f5e;}
+.lists .ls-intro{line-height: 25px; height: 25px;overflow: hidden;}
+.ls-intro b{color: #bf9f60;font-size: 16px;}
+.lists .ls-time{line-height: 25px;height: 25px;overflow: hidden;}
+.ls-time .iconPre{padding: 10px;background: #bf9f60 url(../img/icon_10.png) no-repeat center center; margin-right: 6px;float: left;}
+.ls-intro .lineTh{text-decoration: line-through; padding-left: 5px;color: #c4c4c4;}

@@ -1,0 +1,14 @@
+button{font: 500 18px/45px "微软雅黑";cursor: pointer; text-align: center;color: #fff;border: none;border-radius: 4px; background-color: #715c3b; width: 80%; margin: 20px 10%;}
+.me-detail{padding: 20px 10px;}
+.me_title{background-color: #2C2219; width:100%;position: relative;color:white;height: 110px;font-size: 16px;}
+.me_user{position: relative;padding:10px;}
+.me_user>div{float: left;}
+.user_information{padding-top: 20px;margin-left: 10px;padding-bottom: 10px;}
+.me_number{color:#bf9f60;}
+.user_rule{float: right!important;padding-top: 20px;}
+.me_set{width: 100%;position: relative;padding-top:10px ;}
+.me_set a{position: absolute;right:10px; z-index: 999;}
+.div{width: 100px;color:white;height: 20px;padding: 10px;border-radius: 40px;border: 1px solid #bf9f60;background-color: #705B3A;}
+.div>span:nth-child(1){display: inline-block;width: 20px;height: 20px;color: white;text-align: center;line-height: 20px;border-radius: 20px;background-color: #BF9F60;margin-right: 10px;}
+.me_distance{height: 20px !important;background-color: #F7F9FA;}
+
